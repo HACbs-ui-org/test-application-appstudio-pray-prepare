@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-javatest
     spec:
       containers:
-      - image: quay.io/karthik_jk/devfile-javatest
+      - image: quay.io/karthik_jk/devfile-javatest@sha256:92f01f09626113b16e3b8db587c433d1ccf248082a7e7a38bbf1f9ed197de823
         imagePullPolicy: Always
         name: container-image
         resources: {}

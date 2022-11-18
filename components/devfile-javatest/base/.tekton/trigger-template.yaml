@@ -33,7 +33,7 @@ spec:
       - name: git-url
         value: https://github.com/karthikjeeyar/devfile-javatest
       - name: output-image
-        value: quay.io/karthik_jk/devfile-javatest:latest-$(tt.params.git-revision)
+        value: quay.io/karthik_jk/devfile-javatest@sha256:92f01f09626113b16e3b8db587c433d1ccf248082a7e7a38bbf1f9ed197de823-$(tt.params.git-revision)
       - name: dockerfile
         value: docker/Dockerfile
       - name: path-context
